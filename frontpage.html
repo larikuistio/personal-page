@@ -2,35 +2,42 @@
 
 <html>
 
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="style.css">
-
 <head>
 
-    <title>Lari's page</title>
+    <title>Lari Kuistio</title>
+
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
 
 </head>
 
 <body>
 
-    <div style="overflow: hidden;" class="w3-blue-grey wrapper">
-        <div class="w3-bar w3-mobile w3-text-sand w3-blue-grey">
-            <a href="./frontpage.html" class="w3-bar-item w3-button w3-mobile">
+    <div class="w3-blue-grey wrapper">
+        <div class="w3-bar w3-mobile w3-text-sand w3-blue-grey w3-hide-small" style="min-height: 63px;">
+            <a href="./frontpage.html" class="w3-bar-item w3-button w3-mobile w3-border">
+                <h6>Frontpage</h6>
+            </a>
+        </div>
+        <div class="w3-bar w3-mobile w3-text-sand w3-blue-grey w3-hide-large w3-hide-medium" style="min-height: 63px;">
+            <a href="./frontpage.html" class="w3-bar-item w3-button w3-mobile w3-border">
                 <h6>Frontpage</h6>
             </a>
         </div>
 
         <div class="w3-display-container w3-mobile w3-blue-grey">
-            <img src="background_compressed.JPG" class="w3-center"
-                style="overflow: hidden; width: 100%; max-height: 400px; object-fit: cover">
+            <img src="background_compressed.JPG" class="w3-center header-img">
 
-            <div class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand">
+            <div class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand" style="min-height: 50%;">
                 <h1>Lari Kuistio's homepage</h1>
                 <h1>Under construction</h1>
             </div>
 
             <footer
-                class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand w3-blue-grey">
+                class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand w3-blue-grey" style="min-height: 25%;">
                 <h2>Powered by</h2>
                 <div class="w3-mobile w3-padding-large w3-hide-small">
                     <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large" src="banner_freebsd.gif"
@@ -53,3 +60,14 @@
 </body>
 
 </html>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("dropdown0");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+</script>
