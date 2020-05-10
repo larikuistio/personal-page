@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
@@ -28,54 +29,74 @@
             <a href="./frontpage.html" class="w3-bar-item w3-button w3-mobile w3-border">
                 <h6>Frontpage</h6>
             </a>
-            <a href="./contact.html" class="w3-bar-item w3-button w3-mobile w3-border">
-                <h6>Contact</h6>
-            </a>
+            <div class="w3-dropdown-click w3-bar-item w3-mobile w3-border">
+                <button onclick="navbarDropdown()" class="w3-button">Menu</button>
+                <div id="navbarDropdown" class="w3-bar-item w3-dropdown-content w3-mobile w3-border w3-hide">
+                    <a href="./contact.html" class="w3-bar-item w3-button w3-mobile w3-border">
+                        <h6>Contact</h6>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
         <div class="w3-display-container w3-mobile main-color">
             <img src="img/background_compressed.JPG" alt="image not found :^)" class="w3-center header-img">
 
-            <div class="w3-col" style="width: 20%;"><p></p></div>
-            <div class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand main-color w3-col center-text">
+            <div class="w3-col" style="width: 20%;">
+                <p></p>
+            </div>
+            <div
+                class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand main-color w3-col center-text">
                 <h2>Welcome to my little corner of the web</h2>
-                <p>My name is Lari Kuistio, and this is my little website. I'm studying Computer Science and Engineering at the 
-                    University of Oulu, and I'm currently working towards my bachelor's degree. I like computers and technology a 
-                    whole lot, especially open source software and unix-like operating systems. I'm 21 years old, I grew up in Rovaniemi, 
+                <p>My name is Lari Kuistio, and this is my little website. I'm studying Computer Science and Engineering
+                    at the
+                    University of Oulu, and I'm currently working towards my bachelor's degree. I like computers and
+                    technology a
+                    whole lot, especially open source software and unix-like operating systems. I'm 21 years old, I grew
+                    up in Rovaniemi,
                     and currently live in Oulu.
                 </p>
-                <p>This page is still very much a work in progress, although like many things it will probably never be "complete".</p>
+                <p>I have been studying CSE at the University of Oulu since autumn 2018. I'm currently working as a L1
+                    software intern at Mediatek.</p>
+                <p>This page is still very much a work in progress, although like many things it will probably never be
+                    "complete".</p>
             </div>
             <div class="w3-col" style="width: 20%;"></div>
-            <div class="w3-padding-64"><p></p></div>
-            <div class="w3-padding-64"><p></p></div>
+            <div class="w3-padding-64">
+                <p></p>
+            </div>
+            <div class="w3-padding-64">
+                <p></p>
+            </div>
 
             <footer
-                class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand main-color" style="min-height: 25%;">
+                class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand main-color"
+                style="min-height: 25%;">
                 <h4>Powered by</h4>
                 <div class="w3-mobile w3-padding-large w3-hide-small w3-hide-medium">
-                    <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large" src="img/banner_freebsd.gif"
-                            style="max-width: 25%;" alt="image not found :^)"></a>
                     <a href='http://ipv6-test.com/validate.php?url=referer'><img class="w3-image w3-padding-large"
-                            src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 25%;"></a>
+                            src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 30%;"></a>
+                    <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large"
+                            src="img/banner_freebsd.gif" style="max-width: 30%;" alt="image not found :^)"></a>
                     <a href='https://nmap.org/'><img class="w3-image w3-padding-large" src='img/banner_nmap.gif'
-                        alt="image not found :^)" style="max-width: 25%;"></a>
+                            alt="image not found :^)" style="max-width: 30%;"></a>
                 </div>
                 <div class="w3-mobile w3-padding-large w3-hide-small w3-hide-large">
-                    <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large" src="img/banner_freebsd.gif"
-                            style="max-width: 50%;" alt="image not found :^)"></a>
                     <a href='http://ipv6-test.com/validate.php?url=referer'><img class="w3-image w3-padding-large"
-                            src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 50%;"></a>
+                            src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 60%;"></a>
+                    <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large"
+                            src="img/banner_freebsd.gif" style="max-width: 60%;" alt="image not found :^)"></a>
                     <a href='https://nmap.org/'><img class="w3-image w3-padding-large" src='img/banner_nmap.gif'
-                        alt="image not found :^)" style="max-width: 50%;"></a>
+                            alt="image not found :^)" style="max-width: 60%;"></a>
                 </div>
                 <div class="w3-mobile w3-padding-large w3-hide-large w3-hide-medium">
-                    <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large" src="img/banner_freebsd.gif"
-                            style="max-width: 100%;" alt="image not found :^)"></a>
                     <a href='http://ipv6-test.com/validate.php?url=referer'><img class="w3-image w3-padding-large"
                             src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 100%;"></a>
+                    <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large"
+                            src="img/banner_freebsd.gif" style="max-width: 100%;" alt="image not found :^)"></a>
                     <a href='https://nmap.org/'><img class="w3-image w3-padding-large" src='img/banner_nmap.gif'
-                        alt="image not found :^)" style="max-width: 100%;"></a>
+                            alt="image not found :^)" style="max-width: 100%;"></a>
                 </div>
             </footer>
 
