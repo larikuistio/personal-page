@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
@@ -28,30 +29,89 @@
             <a href="./frontpage.html" class="w3-bar-item w3-button w3-mobile w3-border">
                 <h6>Frontpage</h6>
             </a>
-            <a href="./contact.html" class="w3-bar-item w3-button w3-mobile w3-border">
-                <h6>Contact</h6>
-            </a>
+            <div class="w3-mobile w3-border">
+                <button onclick="navbarDropdown()" class="w3-bar-item w3-button w3-border w3-mobile">Menu</button>
+                <div id="navbarDropdown" class="w3-hide w3-mobile">
+                    <a href="./contact.html" class="w3-bar-item w3-button w3-mobile w3-border">
+                        <h6>Contact</h6>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
         <div class="w3-display-container w3-mobile main-color">
             <img src="img/background_compressed.JPG" alt="image not found :^)" class="w3-center header-img">
 
-            <div class="w3-col" style="width: 20%;"><p></p></div>
-            <div class="w3-container w3-mobile w3-padding-large w3-padding-64 w3-text-sand main-color w3-col center-text w3-left-align w3-left">
-                <h2>Contact info</h2>
-                <p>You can contact me via the following ways</p>
-                <ul>
-                    <li>Email: lari@kuistio.me</li>
-                    <li>Telegram: <a href="https://t.me/vivian11">https://t.me/vivian11</a></li>
-                  </ul>  
-                  
+
+            <div class="w3-hide-large">
+                <div class="w3-col" style="width: 10%;">
+                    <p></p>
+                </div>
+                <div class="w3-container w3-mobile w3-padding-large w3-padding-32 w3-text-sand main-color w3-col center-text"
+                    style="width: 40%;">
+                    <h2>Contact info</h2>
+                    <p>You can contact me via the following ways</p>
+                    <ul>
+                        <li>Email: lari@kuistio.me</li>
+                        <li>Telegram: <a href="https://t.me/vivian11">https://t.me/vivian11</a></li>
+                        <li>LinkedIn: <a
+                                href="https://www.linkedin.com/in/larikuistio/">https://www.linkedin.com/in/larikuistio/</a>
+                        </li>
+                        <li>GitHub: <a href="https://github.com/larikuistio">https://github.com/larikuistio</a></li>
+                    </ul>
+
+                </div>
+                <div class="w3-container w3-mobile w3-padding-large w3-padding-32 w3-text-sand main-color w3-col center-text w3-center"
+                    style="width: 40%;">
+                    <img src="img/me0_compressed.jpg" class="avatar-round-small" alt="image not found :^)">
+
+                </div>
+                <div class="w3-col" style="width: 10%;">
+                    <p></p>
+                </div>
             </div>
-            <div class="w3-col" style="width: 20%;"></div>
-            <div class="w3-padding-64"><p></p></div>
-            <div class="w3-padding-64"><p></p></div>
+
+
+
+            <div class="w3-hide-medium w3-hide-small">
+                <div class="w3-col" style="width: 25%;">
+                    <p></p>
+                </div>
+                <div class="w3-container w3-mobile w3-padding-large w3-padding-64 w3-text-sand main-color w3-col center-text"
+                    style="width: 25%;">
+                    <h2>Contact info</h2>
+                    <p>You can contact me via the following ways</p>
+                    <ul>
+                        <li>Email: lari@kuistio.me</li>
+                        <li>Telegram: <a href="https://t.me/vivian11">https://t.me/vivian11</a></li>
+                        <li>LinkedIn: <a
+                                href="https://www.linkedin.com/in/larikuistio/">https://www.linkedin.com/in/larikuistio/</a>
+                        </li>
+                        <li>GitHub: <a href="https://github.com/larikuistio">https://github.com/larikuistio</a></li>
+                    </ul>
+
+                </div>
+                <div class="w3-container w3-mobile w3-padding-large w3-padding-64 w3-text-sand main-color w3-col center-text w3-center"
+                    style="width: 25%;">
+                    <img src="img/me0_compressed.jpg" class="avatar-round" alt="image not found :^)">
+
+                </div>
+                <div class="w3-col" style="width: 25%;">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="w3-padding-64">
+                <p></p>
+            </div>
+            <div class="w3-padding-64">
+                <p></p>
+            </div>
 
             <footer
-                class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand main-color" style="min-height: 25%;">
+                class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand main-color"
+                style="min-height: 25%;">
                 <h4>Powered by</h4>
                 <div class="w3-mobile w3-padding-large w3-hide-small w3-hide-medium">
                     <a href='http://ipv6-test.com/validate.php?url=referer'><img class="w3-image w3-padding-large"
