@@ -31,11 +31,15 @@
             </a>
             <div class="w3-mobile w3-border">
                 <button onclick="navbarDropdown()" class="w3-bar-item w3-button w3-border w3-mobile">Menu</button>
-                <div id="navbarDropdown" class="w3-hide w3-mobile">
+                <div id="navbarDropdown" class="w3-show w3-mobile">
                     <a href="./contact.html" class="w3-bar-item w3-button w3-mobile w3-border">
                         <h6>Contact</h6>
                     </a>
                 </div>
+                <script>
+                    var x = document.getElementById("navbarDropdown");
+                    x.className = x.className.replace("w3-show", "w3-hide");
+                </script>
             </div>
 
         </div>
@@ -51,7 +55,7 @@
                 <div class="w3-container w3-mobile w3-padding-large w3-padding-32 w3-text-sand main-color w3-col center-text"
                     style="width: 40%;">
                     <h2>Contact info</h2>
-                    <p>You can contact me via the following ways</p>
+                    <p>You can reach me via the following ways</p>
                     <ul>
                         <li>Email: lari@kuistio.me</li>
                         <li>Telegram: <a href="https://t.me/vivian11">https://t.me/vivian11</a></li>
@@ -81,7 +85,7 @@
                 <div class="w3-container w3-mobile w3-padding-large w3-padding-64 w3-text-sand main-color w3-col center-text"
                     style="width: 25%;">
                     <h2>Contact info</h2>
-                    <p>You can contact me via the following ways</p>
+                    <p>You can reach me via the following ways</p>
                     <ul>
                         <li>Email: lari@kuistio.me</li>
                         <li>Telegram: <a href="https://t.me/vivian11">https://t.me/vivian11</a></li>
@@ -108,14 +112,23 @@
             <div class="w3-padding-64">
                 <p></p>
             </div>
+            <div class="w3-padding-64">
+                <p></p>
+            </div>
 
             <footer
                 class="w3-container w3-center w3-mobile w3-padding-large w3-padding-64 w3-justify w3-text-sand main-color"
                 style="min-height: 25%;">
-                <h4>Powered by</h4>
+                <h4></h4>
                 <div class="w3-mobile w3-padding-large w3-hide-small w3-hide-medium">
                     <a href='http://ipv6-test.com/validate.php?url=referer'><img class="w3-image w3-padding-large"
                             src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 30%;"></a>
+                    <a href='https://validator.w3.org/'><img class="w3-image w3-padding-large"
+                            src='img/valid-xhtml10.png' alt='image not found :^)' style="max-width: 30%;"></a>
+                    <a href='https://jigsaw.w3.org/css-validator/'><img class="w3-image w3-padding-large"
+                            src='img/vcss.gif' alt='image not found :^)' style="max-width: 30%;"></a>
+                    <a href='https://anybrowser.org/campaign/index.html'><img class="w3-image w3-padding-large"
+                            src='img/w3c_ab.png' alt='image not found :^)' style="max-width: 30%;"></a>
                     <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large"
                             src="img/banner_freebsd.gif" style="max-width: 30%;" alt="image not found :^)"></a>
                     <a href='https://nmap.org/'><img class="w3-image w3-padding-large" src='img/banner_nmap.gif'
@@ -124,6 +137,12 @@
                 <div class="w3-mobile w3-padding-large w3-hide-small w3-hide-large">
                     <a href='http://ipv6-test.com/validate.php?url=referer'><img class="w3-image w3-padding-large"
                             src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 60%;"></a>
+                    <a href='https://validator.w3.org/'><img class="w3-image w3-padding-large"
+                            src='img/valid-xhtml10.png' alt='image not found :^)' style="max-width: 60%;"></a>
+                    <a href='https://jigsaw.w3.org/css-validator/'><img class="w3-image w3-padding-large"
+                            src='img/vcss.gif' alt='image not found :^)' style="max-width: 60%;"></a>
+                    <a href='https://anybrowser.org/campaign/index.html'><img class="w3-image w3-padding-large"
+                            src='img/w3c_ab.png' alt='image not found :^)' style="max-width: 60%;"></a>
                     <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large"
                             src="img/banner_freebsd.gif" style="max-width: 60%;" alt="image not found :^)"></a>
                     <a href='https://nmap.org/'><img class="w3-image w3-padding-large" src='img/banner_nmap.gif'
@@ -132,6 +151,12 @@
                 <div class="w3-mobile w3-padding-large w3-hide-large w3-hide-medium">
                     <a href='http://ipv6-test.com/validate.php?url=referer'><img class="w3-image w3-padding-large"
                             src='img/banner_ipv6.png' alt='ipv6 ready' title='ipv6 ready' style="max-width: 100%;"></a>
+                    <a href='https://validator.w3.org/'><img class="w3-image w3-padding-large"
+                            src='img/valid-xhtml10.png' alt='image not found :^)' style="max-width: 100%;"></a>
+                    <a href='https://jigsaw.w3.org/css-validator/'><img class="w3-image w3-padding-large"
+                            src='img/vcss.gif' alt='image not found :^)' style="max-width: 100%;"></a>
+                    <a href='https://anybrowser.org/campaign/index.html'><img class="w3-image w3-padding-large"
+                            src='img/w3c_ab.png' alt='image not found :^)' style="max-width: 100%;"></a>
                     <a href="https://www.freebsd.org/"><img class="w3-image w3-padding-large"
                             src="img/banner_freebsd.gif" style="max-width: 100%;" alt="image not found :^)"></a>
                     <a href='https://nmap.org/'><img class="w3-image w3-padding-large" src='img/banner_nmap.gif'

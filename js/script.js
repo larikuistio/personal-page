@@ -1,8 +1,7 @@
 function navbarDropdown() {
-    var x = document.getElementById("navbarDropdown");
-    if (x.className.indexOf("w3-show") == -1) { 
-      x.className += " w3-show";
-    } else {
-      x.className = x.className.replace(" w3-show", "");
-    }
+  if (x.className.indexOf("w3-show") == -1) { 
+    x.className = x.className.replace("w3-hide", "w3-show");
+  } else {
+    x.className = x.className.replace("w3-show", "w3-hide");
+  }
 }
