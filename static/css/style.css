@@ -60,3 +60,7 @@ html, body {
     max-width: 200px;
     max-height: 200px;
 }
+
+.contact-form {
+    max-width: 1000px;
+}
