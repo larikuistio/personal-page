@@ -29,6 +29,8 @@
                         <li>GitHub: <a href="https://github.com/larikuistio">https://github.com/larikuistio</a></li>
                     </ul>
 
+                    <p><strong>Or use the form below, it sends me an email :)</strong></p>
+
                 </div>
                 <div class="w3-container w3-mobile w3-padding-large w3-padding-32 w3-text-sand main-color w3-col center-text w3-center"
                     style="width: 40%;">
@@ -72,12 +74,12 @@
                 </div>
             </div>
 
-            <div class="w3-row">
-                <div class="w3-col" style="width: 5%;">
+            <div class="w3-hide-large w3-row">
+                <div class="w3-col" style="width: 10%;">
                     <p></p>
                 </div>
                 <div class="w3-col w3-container w3-mobile w3-padding-64 w3-padding-large w3-text-sand main-color center-text"
-                    style="width: 90%;">
+                    style="width: 80%;">
                     <form class="contact-form w3-container w3-mobile w3-border" action="{{ url_for('contact') }}"
                         method="POST">
                         <label>Name</label>
@@ -90,7 +92,30 @@
                     </form>
 
                 </div>
-                <div class="w3-col" style="width: 5%;">
+                <div class="w3-col" style="width: 10%;">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="w3-hide-medium w3-hide-small w3-row">
+                <div class="w3-col" style="width: 25%;">
+                    <p></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile w3-padding-64 w3-padding-large w3-text-sand main-color center-text"
+                    style="width: 50%;">
+                    <form class="contact-form w3-container w3-mobile w3-border" action="{{ url_for('contact') }}"
+                        method="POST">
+                        <label>Name</label>
+                        <input class="w3-input w3-border" type="text" name="name" required>
+                        <label>Email</label>
+                        <input class="w3-input w3-border" type="text" name="email" required>
+                        <label>Message</label>
+                        <input class="w3-input w3-border" name="message" type="text" required>
+                        <button class="w3-btn w3-border">Send</button>
+                    </form>
+
+                </div>
+                <div class="w3-col" style="width: 25%;">
                     <p></p>
                 </div>
             </div>
