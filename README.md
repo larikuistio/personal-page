@@ -18,7 +18,7 @@ flask run
 Reverse proxy with nginx to 127.0.0.1:50000
 
 systemd service
-```systemd
+```shell
 [Unit]
 Description = kuistio.me
 After = network.target
