@@ -51,12 +51,12 @@ html, body {
 
 .avatar-round {
     border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .avatar-round-small {
     border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
 }

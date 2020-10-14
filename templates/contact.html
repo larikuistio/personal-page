@@ -8,7 +8,7 @@
     {% include "navbar.html" %}
 
     <div class="w3-display-container w3-mobile main-color">
-        <img src="{{ url_for('static', filename='img/background_compressed.JPG') }}" alt="image not found :^)"
+        <img src="{{ url_for('static', filename='img/background0_compressed.jpg') }}" alt="image not found :^)"
             class="w3-center header-img">
 
 
@@ -17,12 +17,14 @@
                 <p></p>
             </div>
             <div class="w3-container w3-mobile w3-padding-large w3-padding-32 w3-text-sand main-color w3-col center-text"
-                style="width: 40%;">
+                style="width: 50%;">
                 <h2>Contact info</h2>
                 <p>You can reach me via the following ways</p>
                 <ul>
-                    <li>Email: lari@kuistio.me</li>
-                    <li>Telegram: <a href="https://t.me/vivian11">https://t.me/vivian11</a></li>
+                    <li>Email: <img src="{{ url_for('static', filename='img/email.png') }}" alt="image not found :^)"
+                            style="max-height: 32px;"></li>
+                    <li>Matrix: @lari:tunkki.xyz<br>(Don't know what matrix is? Check out <a
+                            href="https://matrix.org">https://matrix.org</a>)</li>
                     <li>LinkedIn: <a
                             href="https://www.linkedin.com/in/larikuistio/">https://www.linkedin.com/in/larikuistio/</a>
                     </li>
@@ -32,7 +34,7 @@
 
             </div>
             <div class="w3-container w3-mobile w3-padding-large w3-padding-32 w3-text-sand main-color w3-col center-text w3-center"
-                style="width: 40%;">
+                style="width: 30%;">
                 <img src="{{ url_for('static', filename='img/me0_compressed.jpg') }}" class="avatar-round-small"
                     alt="image not found :^)">
 
@@ -53,8 +55,10 @@
                 <h2>Contact info</h2>
                 <p>You can reach me via the following ways</p>
                 <ul>
-                    <li>Email: lari@kuistio.me</li>
-                    <li>Telegram: <a href="https://t.me/vivian11">https://t.me/vivian11</a></li>
+                    <li>Email: <img src="{{ url_for('static', filename='img/email.png') }}" alt="image not found :^)"
+                            style="max-height: 32px;"></li>
+                    <li>Matrix: @lari:tunkki.xyz<br>(Don't know what matrix is? Check out <a
+                            href="https://matrix.org">https://matrix.org</a>)</li>
                     <li>LinkedIn: <a
                             href="https://www.linkedin.com/in/larikuistio/">https://www.linkedin.com/in/larikuistio/</a>
                     </li>
@@ -62,8 +66,11 @@
                 </ul>
 
             </div>
+            <div class="w3-col" style="width: 5%;">
+                <p></p>
+            </div>
             <div class="w3-container w3-mobile w3-padding-large w3-padding-64 w3-text-sand main-color w3-col center-text w3-center"
-                style="width: 25%;">
+                style="width: 20%;">
                 <img src="{{ url_for('static', filename='img/me0_compressed.jpg') }}" class="avatar-round"
                     alt="image not found :^)">
 
